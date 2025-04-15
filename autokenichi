@@ -1,8 +1,0 @@
-module.exports = {
-  name: 'autotext',
-  command: ['hello', 'hi', 'kenichi'],
-  description: 'Auto text reply plugin from Kenichi-xd',
-  async execute(m, { conn, text }) {
-    m.reply("★彡[Kenichi-xd]彡★\nHello! How can I assist you?");
-  }
-};
